@@ -1,0 +1,44 @@
+Restaurant is now open! 
+Alice ordered Water
+Bob ordered Beer
+Bob ordered Wine
+Idan ordered Salad
+Idan ordered Water
+Elad ordered Beer
+Idan ordered Salad
+Idan ordered Water
+Elad ordered Wine
+Table 1 status: open
+Customers:
+0 Alice
+Orders:
+Water 10NIS 0
+Current Bill: 10NIS
+Table 2 status: open
+Customers:
+2 Idan
+3 Elad
+1 Bob
+Orders:
+Salad 40NIS 2
+Water 10NIS 2
+Beer 50NIS 3
+Salad 40NIS 2
+Water 10NIS 2
+Wine 60NIS 3
+Beer 50NIS 1
+Wine 60NIS 1
+Current Bill: 320NIS
+Error: Table does not exist or is already open
+open 1 Alice,chp Bob,alc Completed
+order 1 Completed
+order 1 Completed
+open 2 Idan,veg Elad,alc Completed
+order 2 Completed
+order 2 Completed
+move 1 2 1 Completed
+status 1 Completed
+status 2 Completed
+open 2 Jon,spc Sam,spc Error: Table does not exist or is already open
+Table 1 was closed. Bill 10NIS
+Table 2 was closed. Bill 320NIS
