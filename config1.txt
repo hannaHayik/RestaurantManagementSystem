@@ -1,0 +1,10 @@
+#number of tables
+6
+#tables description
+6,4,4,14,10,10
+#Menu
+Beer,ALC,50
+Salad,VEG,40
+Water,BVG,10
+Wine,ALC,60
+Chili Con Carne,SPC,200
